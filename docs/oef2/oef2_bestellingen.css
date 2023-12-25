@@ -1,0 +1,39 @@
+/*naam:  KathyVerbeeckPXL
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+thead {
+    color: white;
+    background-color: #0090e3;
+    font-size: 20pt;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+}
+
+tbody {
+    color: black;
+    font-size: 18pt;
+    font-family: 'Monaco', monospace;
+    text-align: right;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f5cb;
+}
+
+tbody td:nth-child(4) {
+    background-color: #f3f5cb;
+}
+
+table, td, th {
+    border: 1px solid black;
+
+}
+table{
+    width: 900px;
+    text-align: center;
+}

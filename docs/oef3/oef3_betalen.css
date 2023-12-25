@@ -1,0 +1,98 @@
+/* naam: Kathy Verbeeck*/
+
+/* 
+kleuren:
+    oranje: orange
+    wit:    white
+    blauw:  0090e3
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    max-width: 700px;
+    font-size: 18px;
+}
+
+section {
+    width: 100%;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+    border: 2px solid orange;
+}
+
+.winkelwagen span {
+    width: 25%;
+    align-items: start;
+    vertical-align: top;
+    padding-right: 50px;
+}
+
+.winkelwagen img {
+    width: 50%;
+    align-items: center;
+}
+
+.winkelwagen label, .winkelwagen input {
+    vertical-align: top;
+}
+
+.winkelwagen input {
+    width: 30px;
+    margin-top: 5px;
+    vertical-align: top;
+    align-items: flex-end;
+}
+
+.betalen {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.betalen p {
+    display: inline-block;
+    justify-content: space-between;
+}
+.betalen input {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.betalen img {
+    vertical-align: bottom;
+    width: 10%;
+}
+
+.opmerkingen label{
+    display: block;
+}
+
+.opmerkingen textarea {
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+.straat label, .huisnummer label, .huisnummer input {
+    width: calc((100% /6)- 20px);
+    display: inline-block;
+}
+
+.huisnummer input {
+    width: calc((100% /2)- 20px);
+    display: inline-block;
+}
+
+.button input {
+    width: 100%;
+    padding: 20px;
+    background-color: #0090e3;
+    color: white;
+    border: 1px solid black;
+}

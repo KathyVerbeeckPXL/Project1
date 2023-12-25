@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- naam: Kathy Verbeeck -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Oef3</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/oef3_betalen.css">
+</head>
+
+<body>
+    <h1>Bedankt voor je bestelling</h1>
+    <form action="bestel.html">
+        <section class="winkelwagen">
+            <span>Lego Trein</span>
+            <img src="assets/images/train1.jpg" alt="legotrain1">
+            <label for="artikel1">aantal</label>
+            <input type="number" id="artikel1" name="aantal_artikel1" min="1">
+        </section>
+
+        <section class="winkelwagen">
+            <span>Lego Set</span>
+            <img src="assets/images/lego1.jpg" alt="legoset">
+            <label for="artikel2">aantal</label>
+            <input type="number" id="artikel2" name="aantal_artikel2" min="1">
+        </section>
+
+        <section class="betalen">
+            <p>Betaalwijze</p>
+            <input type="radio" id="visa" name="betaalwijze" value="visa">
+            <label for="visa"><img src="assets/images/visa.png" alt="visa"></label>
+            <input type="radio" id="mastercard" name="betaalwijze" value="mastercard">
+            <label for="mastercard"><img src="assets/images/mastercard.png" alt="mastercard"></label>
+            <input type="radio" id="overschrijving" name="betaalwijze" value="overschrijving">
+            <label for="overschrijving">overschrijving</label>
+        </section>
+
+        <section class="opmerkingen">
+            <label for="Opmerkingen">Opmerkingen: </label>
+            <textarea id="opmerkingen" name="opmerkingen" rows="10" cols="75"></textarea>
+        </section>
+
+        <section class="klantgegevens">
+            <label for="straat" class="straat">Straat:</label>
+            <input type="text" id="straat" name="straat" class="straat">
+            <label for="huisnummer" class="huisnummer">Huisnummer:</label>
+            <input type="text" id="huisnummer" name="huisnummer" class="huisnummer">
+        </section>
+
+        <section class="button">
+            <input class="betaling" type="submit" value="bestellen">
+        </section>
+
+    </form>
+</body>
+</html>
